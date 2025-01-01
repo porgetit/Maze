@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    font-family: sans-serif;
+    color: #fff;
+    overflow: hidden; /* si deseas que la pantalla no haga scroll */
+  }
+  
+  #gameCanvas {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #0ff;
+    box-shadow: 0 0 20px #0ff;
+    background: #111;
+  }
+  
+  /* UI */
+  #ui {
+    margin: 1rem auto;
+    text-align: center;
+  }
+  
+  .stars {
+    font-size: 2rem;
+  }
+  .star {
+    color: #444;
+    margin: 0 0.5rem;
+  }
+  .star.collected {
+    color: #ffd700;
+  }
+  
+  #message {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    min-height: 1.2em;
+  }
+  
